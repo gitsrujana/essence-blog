@@ -1,0 +1,62 @@
+
+
+.card {
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    margin: 15%;
+    margin-top: -25px;
+    margin-left: 44%;
+  }
+  
+  .card-media {
+    height: 150px;
+    object-fit: cover;
+     border-radius: 5%;
+     border: 1px solid gray;
+    margin-top: 2%;
+  }
+  
+  .card-content {
+    background-color:white;
+    padding: 12px;
+    text-align: justify;
+
+  }
+  
+  .card-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+  
+  .card-description {
+    color: #555;
+    font-size: 13px;
+  }
+  .favorite-icon{
+    width: 5%;
+    padding: 3%;
+  }
+  .message-icon{
+    width: 5%;
+    padding: 3%;
+  }
+  .redo-icon{
+    width: 5%;
+    padding: 3%;
+  }
+  .favoriteborder-icon{
+    width: 5%;
+    padding: 3%;
+  }
+  @media(max-width:600px){
+    .card{
+      width: 350px;
+      margin-left: 4%;
+      height: 400px;
+      margin: 20px;
+    }
+  }
